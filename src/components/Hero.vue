@@ -1,81 +1,81 @@
 <script setup lang="ts">
-import { ArrowRight, BrainCircuit } from 'lucide-vue-next'
-import ImageWithFallback from './ui/ImageWithFallback.vue'
 </script>
 
 <template>
-  <section class="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
-    <!-- Grid pattern background -->
-    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjEiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-40"></div>
+  <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+    <!-- Background Blurs -->
+    <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-secondary/20 dark:bg-secondary/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 bg-primary/20 dark:bg-primary/10 rounded-full blur-3xl"></div>
     
-    <!-- Animated gradient orbs -->
-    <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-teal-500/30 rounded-full blur-3xl animate-pulse"></div>
-    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-lime-400/20 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s"></div>
-    
-    <div class="relative mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
-      <div class="grid gap-12 lg:grid-cols-2 lg:gap-8 items-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <!-- Left Content -->
         <div class="space-y-8">
-          <div class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-teal-500/20 to-lime-400/20 px-4 py-2 backdrop-blur-sm border border-teal-500/30">
-            <BrainCircuit class="h-4 w-4 text-lime-400" />
-            <span class="text-sm">Impulsionado por Inteligência Artificial</span>
+          <div class="inline-flex items-center px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800 border border-slate-300 dark:border-slate-700">
+            <span class="w-2 h-2 rounded-full bg-secondary mr-2 animate-pulse"></span>
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300">Next-Gen Development</span>
           </div>
           
-          <h1 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight">
-            Criamos sites com 
-            <span class="bg-gradient-to-r from-teal-400 to-lime-400 bg-clip-text text-transparent">IA</span> que 
-            <span class="text-lime-400">impulsionam vendas</span> e 
-            <span class="text-lime-400">conversões</span>
+          <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight text-navy dark:text-white">
+            Websites Built by <br/>
+            <span class="brand-gradient-text">Intelligence.</span>
           </h1>
           
-          <p class="text-lg sm:text-xl text-gray-300">
-            Especialistas em desenvolvimento web com inteligência artificial, landing pages e e-commerce. 
-            Combinamos design inovador com IA e estratégias de marketing digital 
-            para levar seu negócio ao próximo nível.
+          <p class="text-lg text-slate-600 dark:text-slate-400 max-w-lg leading-relaxed">
+            We merge creative design with advanced AI algorithms to build lightning-fast websites, high-converting landing pages, and scalable e-commerce stores.
           </p>
           
           <div class="flex flex-col sm:flex-row gap-4">
             <a 
-              href="#contato" 
-              class="group inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-teal-400 to-lime-400 px-8 py-4 text-slate-900 transition-all hover:shadow-lg hover:shadow-teal-400/50 hover:scale-105"
+              class="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold rounded-full text-white bg-primary hover:bg-teal-700 transition-all shadow-xl shadow-teal-500/20" 
+              href="#contact"
             >
-              Solicite um Orçamento
-              <ArrowRight class="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              Book a Strategy Call
+              <span class="material-icons-outlined ml-2 text-sm">arrow_forward</span>
             </a>
-            
             <a 
-              href="#servicos" 
-              class="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-teal-400 px-8 py-4 text-white transition-all hover:bg-teal-500/10"
+              class="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-full text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all" 
+              href="#portfolio"
             >
-              Nossos Serviços
+              View Portfolio
             </a>
-          </div>
-          
-          <div class="flex items-center gap-8 pt-4">
-            <div>
-              <div class="text-3xl bg-gradient-to-r from-teal-400 to-lime-400 bg-clip-text text-transparent">500+</div>
-              <div class="text-sm text-gray-400">Projetos Entregues</div>
-            </div>
-            <div class="h-12 w-px bg-gradient-to-b from-transparent via-teal-400 to-transparent"></div>
-            <div>
-              <div class="text-3xl bg-gradient-to-r from-teal-400 to-lime-400 bg-clip-text text-transparent">98%</div>
-              <div class="text-sm text-gray-400">Satisfação</div>
-            </div>
-            <div class="h-12 w-px bg-gradient-to-b from-transparent via-teal-400 to-transparent"></div>
-            <div>
-              <div class="text-3xl bg-gradient-to-r from-teal-400 to-lime-400 bg-clip-text text-transparent">24/7</div>
-              <div class="text-sm text-gray-400">Suporte com IA</div>
-            </div>
           </div>
         </div>
         
-        <div class="relative">
-          <div class="absolute -inset-4 rounded-2xl bg-gradient-to-r from-lime-400 via-teal-500 to-lime-400 opacity-30 blur-3xl animate-pulse"></div>
-          <div class="relative overflow-hidden rounded-2xl shadow-2xl border border-teal-500/30 bg-slate-800/50 backdrop-blur-sm">
-            <ImageWithFallback 
-              src="https://images.unsplash.com/photo-1637502877428-27e6553a8817?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBsYXB0b3B8ZW58MXx8fHwxNzY2MzQ2MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
-              alt="Web Design"
-              class="w-full h-auto object-cover"
+        <!-- Right Content - Image -->
+        <div class="relative lg:h-[500px] w-full flex items-center justify-center">
+          <div class="relative z-10 w-full h-full rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700 group">
+            <img 
+              alt="Abstract 3D shape representing AI neural network" 
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7cFgX7kUx7aVP_lEjgzrTWRnJd9UujwNT4SZrI4eJ12pCkwYn-597K9YmfKR1epTb3rizW3gbd_mIc4t55FS_bA2xKrJ3UZJp4Eh3F_d-vCTpCfdfgHAp0n3Vkj0BU2x-Jyllp_sUt2x53a6_2yqB6ACoDp8zfAkaeH87UPXE8UlTLpYFRnE-YjxUbknFVJ6N6SvDg0YmuJ602VOKAS-2o104lF_NV1lABQlqo8a0L-NveCbP03OEnSOhUjTKHBuoPscd3zmNwtYv"
             />
+            
+            <!-- Performance Badge -->
+            <div class="absolute bottom-8 left-8 bg-white/90 dark:bg-slate-900/90 backdrop-blur p-4 rounded-xl shadow-lg border border-slate-100 dark:border-slate-700 animate-bounce" style="animation-duration: 3s;">
+              <div class="flex items-center gap-3">
+                <div class="bg-green-100 dark:bg-green-900 p-2 rounded-lg">
+                  <span class="material-icons-outlined text-green-600 dark:text-green-400">speed</span>
+                </div>
+                <div>
+                  <p class="text-xs text-slate-500 dark:text-slate-400">Performance Score</p>
+                  <p class="font-bold text-navy dark:text-white">99/100</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- AI Badge -->
+            <div class="absolute top-8 right-8 bg-white/90 dark:bg-slate-900/90 backdrop-blur p-4 rounded-xl shadow-lg border border-slate-100 dark:border-slate-700">
+              <div class="flex items-center gap-3">
+                <div class="bg-blue-100 dark:bg-blue-900 p-2 rounded-lg">
+                  <span class="material-icons-outlined text-blue-600 dark:text-blue-400">auto_fix_high</span>
+                </div>
+                <div>
+                  <p class="text-xs text-slate-500 dark:text-slate-400">AI Optimization</p>
+                  <p class="font-bold text-navy dark:text-white">Active</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

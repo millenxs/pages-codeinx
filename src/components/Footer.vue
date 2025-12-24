@@ -1,101 +1,77 @@
 <script setup lang="ts">
-import { Mail, Phone, Globe } from 'lucide-vue-next'
-
 const currentYear = new Date().getFullYear()
+
+const services = [
+  { name: 'Web Development', href: '#' },
+  { name: 'Landing Pages', href: '#' },
+  { name: 'Shopify Stores', href: '#' },
+  { name: 'AI Integration', href: '#' }
+]
+
+const company = [
+  { name: 'About Us', href: '#' },
+  { name: 'Our Process', href: '#' },
+  { name: 'Careers', href: '#' },
+  { name: 'Contact', href: '#contact' }
+]
 </script>
 
 <template>
-  <footer class="bg-slate-950 text-gray-400 py-12">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-        <div>
-          <h3 class="text-xl text-white mb-4">Agência Digital</h3>
-          <p class="text-sm">
-            Transformando ideias em experiências digitais de sucesso desde 2015.
+  <footer class="bg-background-light dark:bg-background-dark border-t border-slate-200 dark:border-slate-800 pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8 mb-12">
+        <!-- Brand -->
+        <div class="col-span-1 md:col-span-2">
+          <div class="flex items-center gap-2 mb-4">
+            <div class="w-6 h-6 rounded-full border-2 border-navy dark:border-white relative">
+              <div class="absolute top-0.5 right-0.5 w-2 h-2 bg-secondary rounded-full"></div>
+            </div>
+            <span class="font-display font-bold text-xl text-navy dark:text-white">codeinx</span>
+          </div>
+          <p class="text-slate-500 dark:text-slate-400 max-w-sm mb-6">
+            A digital agency fusing creativity with artificial intelligence to build the web of tomorrow.
           </p>
+          <div class="flex space-x-4">
+            <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+              <span class="material-icons-outlined">facebook</span>
+            </a>
+            <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+              <span class="material-icons-outlined">smart_display</span>
+            </a>
+            <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+              <span class="material-icons-outlined">alternate_email</span>
+            </a>
+          </div>
         </div>
         
+        <!-- Services -->
         <div>
-          <h4 class="text-white mb-4">Serviços</h4>
-          <ul class="space-y-2 text-sm">
-            <li>
-              <a href="#servicos" class="hover:text-lime-400 transition-colors">
-                Criação de Sites
-              </a>
-            </li>
-            <li>
-              <a href="#servicos" class="hover:text-lime-400 transition-colors">
-                Landing Pages
-              </a>
-            </li>
-            <li>
-              <a href="#servicos" class="hover:text-lime-400 transition-colors">
-                Lojas Virtuais
-              </a>
-            </li>
-            <li>
-              <a href="#servicos" class="hover:text-lime-400 transition-colors">
-                SEO & Marketing
-              </a>
+          <h4 class="font-bold text-navy dark:text-white mb-4">Services</h4>
+          <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
+            <li v-for="service in services" :key="service.name">
+              <a class="hover:text-primary" :href="service.href">{{ service.name }}</a>
             </li>
           </ul>
         </div>
         
+        <!-- Company -->
         <div>
-          <h4 class="text-white mb-4">Empresa</h4>
-          <ul class="space-y-2 text-sm">
-            <li>
-              <a href="#" class="hover:text-teal-400 transition-colors">
-                Sobre Nós
-              </a>
-            </li>
-            <li>
-              <a href="#" class="hover:text-teal-400 transition-colors">
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a href="#" class="hover:text-teal-400 transition-colors">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href="#contato" class="hover:text-teal-400 transition-colors">
-                Contato
-              </a>
-            </li>
-          </ul>
-        </div>
-        
-        <div>
-          <h4 class="text-white mb-4">Contato</h4>
-          <ul class="space-y-3 text-sm">
-            <li class="flex items-center gap-2">
-              <Mail class="h-4 w-4 text-teal-400" />
-              <a href="mailto:contato@agencia.com" class="hover:text-lime-400 transition-colors">
-                contato@agencia.com
-              </a>
-            </li>
-            <li class="flex items-center gap-2">
-              <Phone class="h-4 w-4 text-teal-400" />
-              <a href="tel:+5511999999999" class="hover:text-lime-400 transition-colors">
-                +55 11 99999-9999
-              </a>
-            </li>
-            <li class="flex items-center gap-2">
-              <Globe class="h-4 w-4 text-teal-400" />
-              <a href="#" class="hover:text-lime-400 transition-colors">
-                www.agencia.com
-              </a>
+          <h4 class="font-bold text-navy dark:text-white mb-4">Company</h4>
+          <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
+            <li v-for="item in company" :key="item.name">
+              <a class="hover:text-primary" :href="item.href">{{ item.name }}</a>
             </li>
           </ul>
         </div>
       </div>
       
-      <div class="mt-12 pt-8 border-t border-slate-800 text-center text-sm">
-        <p>
-          © {{ currentYear }} Agência Digital. Todos os direitos reservados.
-        </p>
+      <!-- Bottom Bar -->
+      <div class="border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500 dark:text-slate-400">
+        <p>© {{ currentYear }} codeinx Agency. All rights reserved.</p>
+        <div class="flex space-x-6 mt-4 md:mt-0">
+          <a class="hover:text-slate-800 dark:hover:text-white" href="#">Privacy Policy</a>
+          <a class="hover:text-slate-800 dark:hover:text-white" href="#">Terms of Service</a>
+        </div>
       </div>
     </div>
   </footer>
