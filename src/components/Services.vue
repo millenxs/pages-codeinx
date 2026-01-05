@@ -67,11 +67,11 @@
               <div class="w-12 h-12 bg-navy dark:bg-white rounded-full flex items-center justify-center mb-6 text-white dark:text-navy font-bold text-xl">3</div>
               <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">Lojas E-Commerce</h4>
               <p class="text-slate-600 dark:text-slate-400 mb-6">
-                Lojas online robustas em Shopify ou desenvolvimento customizado. Implementamos recomendações de produtos com IA e motores de precificação dinâmica.
+                Lojas online robustas com desenvolvimento customizado. Implementamos recomendações de produtos com IA e motores de precificação dinâmica.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Shopify / WooCommerce</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>WooCommerce</li>
               <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Integração Gateway Pagamento</li>
               <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Gestão de Estoque com IA</li>
             </ul>

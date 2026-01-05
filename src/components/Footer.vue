@@ -4,7 +4,7 @@ const currentYear = new Date().getFullYear()
 const services = [
   { name: 'Desenvolvimento Web', href: '#' },
   { name: 'Landing Pages', href: '#' },
-  { name: 'Lojas Shopify', href: '#' },
+  { name: 'Lojas E-Commerce', href: '#' },
   { name: 'Integração de IA', href: '#' }
 ]
 
