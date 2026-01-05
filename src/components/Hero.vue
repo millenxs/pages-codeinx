@@ -13,16 +13,16 @@
         <div class="space-y-8">
           <div class="inline-flex items-center px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800 border border-slate-300 dark:border-slate-700">
             <span class="w-2 h-2 rounded-full bg-secondary mr-2 animate-pulse"></span>
-            <span class="text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300">Next-Gen Development</span>
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300">Desenvolvimento de Próxima Geração</span>
           </div>
           
           <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight text-navy dark:text-white">
-            Websites Built by <br/>
-            <span class="brand-gradient-text">Intelligence.</span>
+            Websites Criados por <br/>
+            <span class="brand-gradient-text">Inteligência.</span>
           </h1>
           
           <p class="text-lg text-slate-600 dark:text-slate-400 max-w-lg leading-relaxed">
-            We merge creative design with advanced AI algorithms to build lightning-fast websites, high-converting landing pages, and scalable e-commerce stores.
+            Unimos design criativo com algoritmos avançados de IA para criar websites ultrarrápidos, landing pages de alta conversão e lojas e-commerce escaláveis.
           </p>
           
           <div class="flex flex-col sm:flex-row gap-4">
@@ -30,14 +30,14 @@
               class="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold rounded-full text-white bg-primary hover:bg-teal-700 transition-all shadow-xl shadow-teal-500/20" 
               href="#contact"
             >
-              Book a Strategy Call
+              Agendar Consulta Estratégica
               <span class="material-icons-outlined ml-2 text-sm">arrow_forward</span>
             </a>
             <a 
               class="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-full text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all" 
               href="#portfolio"
             >
-              View Portfolio
+              Ver Portfólio
             </a>
           </div>
         </div>
@@ -46,7 +46,7 @@
         <div class="relative lg:h-[500px] w-full flex items-center justify-center">
           <div class="relative z-10 w-full h-full rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700 group">
             <img 
-              alt="Abstract 3D shape representing AI neural network" 
+              alt="Forma 3D abstrata representando rede neural de IA" 
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7cFgX7kUx7aVP_lEjgzrTWRnJd9UujwNT4SZrI4eJ12pCkwYn-597K9YmfKR1epTb3rizW3gbd_mIc4t55FS_bA2xKrJ3UZJp4Eh3F_d-vCTpCfdfgHAp0n3Vkj0BU2x-Jyllp_sUt2x53a6_2yqB6ACoDp8zfAkaeH87UPXE8UlTLpYFRnE-YjxUbknFVJ6N6SvDg0YmuJ602VOKAS-2o104lF_NV1lABQlqo8a0L-NveCbP03OEnSOhUjTKHBuoPscd3zmNwtYv"
             />
@@ -58,7 +58,7 @@
                   <span class="material-icons-outlined text-green-600 dark:text-green-400">speed</span>
                 </div>
                 <div>
-                  <p class="text-xs text-slate-500 dark:text-slate-400">Performance Score</p>
+                  <p class="text-xs text-slate-500 dark:text-slate-400">Pontuação de Performance</p>
                   <p class="font-bold text-navy dark:text-white">99/100</p>
                 </div>
               </div>
@@ -71,8 +71,8 @@
                   <span class="material-icons-outlined text-blue-600 dark:text-blue-400">auto_fix_high</span>
                 </div>
                 <div>
-                  <p class="text-xs text-slate-500 dark:text-slate-400">AI Optimization</p>
-                  <p class="font-bold text-navy dark:text-white">Active</p>
+                  <p class="text-xs text-slate-500 dark:text-slate-400">Otimização de IA</p>
+                  <p class="font-bold text-navy dark:text-white">Ativa</p>
                 </div>
               </div>
             </div>

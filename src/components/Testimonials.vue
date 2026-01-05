@@ -7,13 +7,13 @@
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <!-- Left - Testimonial -->
         <div>
-          <h2 class="text-3xl md:text-4xl font-display font-bold text-navy dark:text-white mb-6">Client Success Stories</h2>
+          <h2 class="text-3xl md:text-4xl font-display font-bold text-navy dark:text-white mb-6">Histórias de Sucesso dos Clientes</h2>
           <p class="text-slate-600 dark:text-slate-400 mb-8 text-lg">
-            "Codeinx transformed our digital presence. Their AI-driven approach to our landing pages increased our conversion rate by 140% in just two months."
+            "A Codeinx transformou nossa presença digital. A abordagem orientada por IA em nossas landing pages aumentou nossa taxa de conversão em 140% em apenas dois meses."
           </p>
           <div class="flex items-center gap-4">
             <img 
-              alt="Client Portrait" 
+              alt="Retrato do Cliente" 
               class="w-12 h-12 rounded-full object-cover border-2 border-primary" 
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgVahotFs3xu7SR-Xvhx23XsPduBOe-7_2hHY0IOwXT86YYcM9YOyt1qlY74XIX9BPxF-IxU6yu8bTwJTf9THUUYPWQgN-nsMsVsbWn8nwjmom0fYJM8aCOf5fWNqmqaQ8iW9O4kdCeqB5pySNWn_b66KunwNDQnoYtAxJZADppnXAy-U8b1C7eimI-w_giB75Wc3RVyEpIHRVrbAKVolEyhzsjzLjVhqQEU-JT5MTsOAjgUIOjtZ_1zg19h1-DsCWR94q54z3412Q"
             />
@@ -28,15 +28,15 @@
         <div class="grid grid-cols-2 gap-4">
           <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700">
             <p class="text-4xl font-bold text-primary mb-2">350+</p>
-            <p class="text-sm text-slate-600 dark:text-slate-400">Projects Launched</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Projetos Lançados</p>
           </div>
           <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700">
             <p class="text-4xl font-bold text-secondary mb-2">98%</p>
-            <p class="text-sm text-slate-600 dark:text-slate-400">Client Retention</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Retenção de Clientes</p>
           </div>
           <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 col-span-2">
             <p class="text-4xl font-bold text-navy dark:text-white mb-2">24/7</p>
-            <p class="text-sm text-slate-600 dark:text-slate-400">AI System Monitoring</p>
+            <p class="text-sm text-slate-600 dark:text-slate-400">Monitoramento do Sistema IA</p>
           </div>
         </div>
       </div>
