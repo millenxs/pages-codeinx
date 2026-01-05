@@ -47,27 +47,7 @@ jobs:
           chmod +x ./node_modules/.bin/vite
           npm run build
 
-      - name: Setup GitHub CLI
-        run: |
-          # Install GitHub CLI
-          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-          echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-          sudo apt update
-          sudo apt install gh
-
       - name: Setup Pages
-        run: |
-          # Try to enable GitHub Pages if not already enabled
-          if ! gh api repos/${{ github.repository }}/pages --silent 2>/dev/null; then
-            echo "Enabling GitHub Pages..."
-            gh api -X POST repos/${{ github.repository }}/pages -f source.build_type=gh-pages -f source.branch=main --silent
-          else
-            echo "GitHub Pages already enabled"
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Configure Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
