@@ -36,10 +36,10 @@ const toggleTheme = () => {
         
         <!-- Navigation Links -->
         <div class="hidden md:flex space-x-8 items-center">
-          <a class="text-sm font-medium hover:text-primary transition-colors" href="#services">Services</a>
-          <a class="text-sm font-medium hover:text-primary transition-colors" href="#ai-approach">AI Approach</a>
-          <a class="text-sm font-medium hover:text-primary transition-colors" href="#portfolio">Work</a>
-          <a class="text-sm font-medium hover:text-primary transition-colors" href="#testimonials">Testimonials</a>
+          <a class="text-sm font-medium hover:text-primary transition-colors" href="#services">Serviços</a>
+          <a class="text-sm font-medium hover:text-primary transition-colors" href="#ai-approach">Abordagem com IA</a>
+          <a class="text-sm font-medium hover:text-primary transition-colors" href="#portfolio">Trabalhos</a>
+          <a class="text-sm font-medium hover:text-primary transition-colors" href="#testimonials">Depoimentos</a>
         </div>
         
         <!-- Actions -->
@@ -56,7 +56,7 @@ const toggleTheme = () => {
             class="hidden md:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-medium rounded-full text-white bg-primary hover:bg-teal-700 shadow-lg shadow-teal-500/30 transition-all transform hover:-translate-y-0.5" 
             href="#contact"
           >
-            Start Project
+            Iniciar Projeto
           </a>
         </div>
       </div>

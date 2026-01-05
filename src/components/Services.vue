@@ -6,11 +6,11 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row justify-between items-end mb-12">
         <div class="max-w-2xl">
-          <h2 class="text-sm font-bold text-primary uppercase tracking-wider mb-2">Our Expertise</h2>
-          <h3 class="text-3xl md:text-5xl font-display font-bold text-navy dark:text-white">Digital Solutions for Scale</h3>
+          <h2 class="text-sm font-bold text-primary uppercase tracking-wider mb-2">Nossa Expertise</h2>
+          <h3 class="text-3xl md:text-5xl font-display font-bold text-navy dark:text-white">Soluções Digitais para Crescimento</h3>
         </div>
         <a class="hidden md:inline-flex items-center text-primary font-bold hover:text-teal-700 dark:hover:text-teal-400 transition-colors mt-4 md:mt-0" href="#contact">
-          See All Services <span class="material-icons-outlined ml-1">arrow_forward</span>
+          Ver Todos os Serviços <span class="material-icons-outlined ml-1">arrow_forward</span>
         </a>
       </div>
       
@@ -23,15 +23,15 @@
           <div class="relative z-10 h-full flex flex-col justify-between">
             <div>
               <div class="w-12 h-12 bg-navy dark:bg-white rounded-full flex items-center justify-center mb-6 text-white dark:text-navy font-bold text-xl">1</div>
-              <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">Website Creation</h4>
+              <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">Criação de Sites</h4>
               <p class="text-slate-600 dark:text-slate-400 mb-6">
-                Full-stack development using modern frameworks (React, Vue, Tailwind). We build responsive, secure, and blazingly fast corporate sites.
+                Desenvolvimento full-stack usando frameworks modernos (React, Vue, Tailwind). Construímos sites corporativos responsivos, seguros e extremamente rápidos.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>CMS Integration</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Interactive 3D Elements</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>AI Chatbot Setup</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Integração com CMS</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Elementos 3D Interativos</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Configuração de Chatbot com IA</li>
             </ul>
           </div>
         </div>
@@ -46,13 +46,13 @@
               <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-6 text-white font-bold text-xl">2</div>
               <h4 class="text-2xl font-bold text-white mb-4">Landing Pages</h4>
               <p class="text-slate-300 mb-6">
-                High-octane sales pages designed to convert cold traffic. We use AI to generate multiple copy variations and A/B test layouts instantly.
+                Páginas de vendas de alta performance projetadas para converter tráfego frio. Usamos IA para gerar múltiplas variações de copy e testar layouts A/B instantaneamente.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Conversion Copywriting</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Funnel Architecture</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Analytics Dashboard</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Copywriting para Conversão</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Arquitetura de Funil</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Painel de Análises</li>
             </ul>
           </div>
         </div>
@@ -65,15 +65,15 @@
           <div class="relative z-10 h-full flex flex-col justify-between">
             <div>
               <div class="w-12 h-12 bg-navy dark:bg-white rounded-full flex items-center justify-center mb-6 text-white dark:text-navy font-bold text-xl">3</div>
-              <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">E-Commerce Stores</h4>
+              <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">Lojas Virtuais</h4>
               <p class="text-slate-600 dark:text-slate-400 mb-6">
-                Robust online stores on Shopify or Custom builds. We implement AI product recommendations and dynamic pricing engines.
+                Lojas online robustas no Shopify ou desenvolvimentos personalizados. Implementamos recomendações de produtos com IA e motores de precificação dinâmica.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
               <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Shopify / WooCommerce</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Payment Gateway Integ.</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Inventory AI Management</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Integração de Gateway de Pagamento</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Gestão de Estoque com IA</li>
             </ul>
           </div>
         </div>
