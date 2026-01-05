@@ -2,17 +2,17 @@
 const currentYear = new Date().getFullYear()
 
 const services = [
-  { name: 'Web Development', href: '#' },
+  { name: 'Desenvolvimento Web', href: '#' },
   { name: 'Landing Pages', href: '#' },
-  { name: 'Shopify Stores', href: '#' },
-  { name: 'AI Integration', href: '#' }
+  { name: 'Lojas Shopify', href: '#' },
+  { name: 'Integração com IA', href: '#' }
 ]
 
 const company = [
-  { name: 'About Us', href: '#' },
-  { name: 'Our Process', href: '#' },
-  { name: 'Careers', href: '#' },
-  { name: 'Contact', href: '#contact' }
+  { name: 'Sobre Nós', href: '#' },
+  { name: 'Nosso Processo', href: '#' },
+  { name: 'Carreiras', href: '#' },
+  { name: 'Contato', href: '#contact' }
 ]
 </script>
 
@@ -29,7 +29,7 @@ const company = [
             <span class="font-display font-bold text-xl text-navy dark:text-white">codeinx</span>
           </div>
           <p class="text-slate-500 dark:text-slate-400 max-w-sm mb-6">
-            A digital agency fusing creativity with artificial intelligence to build the web of tomorrow.
+            Uma agência digital que une criatividade com inteligência artificial para construir a web do amanhã.
           </p>
           <div class="flex space-x-4">
             <a class="text-slate-400 hover:text-primary transition-colors" href="#">
@@ -46,7 +46,7 @@ const company = [
         
         <!-- Services -->
         <div>
-          <h4 class="font-bold text-navy dark:text-white mb-4">Services</h4>
+          <h4 class="font-bold text-navy dark:text-white mb-4">Serviços</h4>
           <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
             <li v-for="service in services" :key="service.name">
               <a class="hover:text-primary" :href="service.href">{{ service.name }}</a>
@@ -56,7 +56,7 @@ const company = [
         
         <!-- Company -->
         <div>
-          <h4 class="font-bold text-navy dark:text-white mb-4">Company</h4>
+          <h4 class="font-bold text-navy dark:text-white mb-4">Empresa</h4>
           <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
             <li v-for="item in company" :key="item.name">
               <a class="hover:text-primary" :href="item.href">{{ item.name }}</a>
