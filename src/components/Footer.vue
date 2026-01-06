@@ -29,7 +29,7 @@ const company = [
             <span class="font-display font-bold text-xl text-navy dark:text-white">codeinx</span>
           </div>
           <p class="text-slate-500 dark:text-slate-400 max-w-sm mb-6">
-            Uma agência digital que une criatividade com inteligência artificial para construir a web do amanhã.
+            Estratégia digital, engenharia de software, inteligência artificial e suporte contínuo. Tudo integrado em uma única parceria que impulsiona seu crescimento.
           </p>
           <div class="flex space-x-4">
             <a class="text-slate-400 hover:text-primary transition-colors" href="#">
