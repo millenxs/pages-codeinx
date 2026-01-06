@@ -13,16 +13,18 @@
         <div class="space-y-8">
           <div class="inline-flex items-center px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800 border border-slate-300 dark:border-slate-700">
             <span class="w-2 h-2 rounded-full bg-secondary mr-2 animate-pulse"></span>
-            <span class="text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300">Desenvolvimento de Próxima Geração</span>
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-600 dark:text-slate-300">Digital Development</span>
           </div>
           
-          <h1 class="text-5xl lg:text-7xl font-display font-bold leading-tight text-navy dark:text-white">
-            Websites Criados por <br/>
-            <span class="brand-gradient-text">Inteligência.</span>
+          <h1 class="text-4xl lg:text-6xl font-display font-bold leading-tight text-navy dark:text-white">
+            Desenvolvimento de Plataformas Web 
+            <span class="brand-gradient-text">Inteligentes.</span>
           </h1>
           
           <p class="text-lg text-slate-600 dark:text-slate-400 max-w-lg leading-relaxed">
-            Unimos design criativo com algoritmos avançados de IA para criar websites ultrarrápidos, landing pages de alta conversão e lojas e-commerce escaláveis.
+            Desenvolvimento web + IA | Soluções digitais completas | Estratégia, engenharia e inteligência artificial
+            <br><br>
+            Transformamos desafios tecnológicos em oportunidades de crescimento com expertise em transformação digital, inteligência artificial e desenvolvimento de soluções escaláveis.
           </p>
           
           <div class="flex flex-col sm:flex-row gap-4">
@@ -30,7 +32,7 @@
               class="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold rounded-full text-white bg-primary hover:bg-teal-700 transition-all shadow-xl shadow-teal-500/20" 
               href="#contact"
             >
-              Agendar Consulta Estratégica
+              Solicitar Orçamento
               <span class="material-icons-outlined ml-2 text-sm">arrow_forward</span>
             </a>
             <a 

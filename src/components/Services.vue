@@ -23,15 +23,15 @@
           <div class="relative z-10 h-full flex flex-col justify-between">
             <div>
               <div class="w-12 h-12 bg-navy dark:bg-white rounded-full flex items-center justify-center mb-6 text-white dark:text-navy font-bold text-xl">1</div>
-              <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">Criação de Websites</h4>
+              <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">Desenvolvimento Web e Aplicações</h4>
               <p class="text-slate-600 dark:text-slate-400 mb-6">
-                Desenvolvimento full-stack usando frameworks modernos (React, Vue, Tailwind). Criamos sites corporativos responsivos, seguros e extremamente rápidos.
+                Criamos sites, aplicações web e plataformas usando tecnologias modernas (React, Vue, Next.js). Integração seamless com IA, chatbots, APIs e banco de dados. De presença corporativa a sistemas complexos.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Integração CMS</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Sites Responsivos e SEO-Friendly</li>
               <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Elementos 3D Interativos</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Configuração de Chatbot IA</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Chatbots com IA Integrada</li>
             </ul>
           </div>
         </div>
@@ -44,15 +44,15 @@
           <div class="relative z-10 h-full flex flex-col justify-between">
             <div>
               <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-6 text-white font-bold text-xl">2</div>
-              <h4 class="text-2xl font-bold text-white mb-4">Landing Pages</h4>
+              <h4 class="text-2xl font-bold text-white mb-4">SaaS & Plataformas Inteligentes</h4>
               <p class="text-slate-300 mb-6">
-                Páginas de vendas de alto impacto projetadas para converter tráfego frio. Usamos IA para gerar múltiplas variações de copy e testar layouts A/B instantaneamente.
+                Desenvolvemos SaaS escaláveis, plataformas B2B e sistemas proprietários potencializados por IA. Do MVP à produção, com arquitetura cloud-native e automação inteligente.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-300">
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Copywriting de Conversão</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Arquitetura de Funil</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Painel de Analytics</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Automação com Machine Learning</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Integração de Modelos de IA (GPT, Claude, Gemini)</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>Arquitetura Escalável e Segura</li>
             </ul>
           </div>
         </div>
@@ -65,15 +65,15 @@
           <div class="relative z-10 h-full flex flex-col justify-between">
             <div>
               <div class="w-12 h-12 bg-navy dark:bg-white rounded-full flex items-center justify-center mb-6 text-white dark:text-navy font-bold text-xl">3</div>
-              <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">Lojas E-Commerce</h4>
+              <h4 class="text-2xl font-bold text-navy dark:text-white mb-4">Sistemas Customizados Conforme Sua Realidade</h4>
               <p class="text-slate-600 dark:text-slate-400 mb-6">
-                Lojas online robustas em Shopify ou desenvolvimento customizado. Implementamos recomendações de produtos com IA e motores de precificação dinâmica.
+                Não usamos soluções prontas. Começamos pelo diagnóstico real das suas dificuldades e necessidades. Desenvolvemos sistemas 100% personalizados que resolvem seus problemas específicos e escalam com seu negócio.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Shopify / WooCommerce</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Integração Gateway Pagamento</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Gestão de Estoque com IA</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Sistemas Customizados do Zero</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Integração com Processos Existentes</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-secondary rounded-full mr-2"></span>Escalabilidade Conforme Crescimento</li>
             </ul>
           </div>
         </div>

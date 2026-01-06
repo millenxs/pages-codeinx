@@ -29,10 +29,12 @@ const features = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-4xl font-display font-bold text-navy dark:text-white mb-4">
-          Por que Codeinx? <span class="text-primary">A Vantagem da IA.</span>
+          Por que Codeinx? <span class="text-primary">Desenvolvimento 10x Mais Rápido.</span>
         </h2>
         <p class="text-slate-600 dark:text-slate-400">
-          O desenvolvimento tradicional é lento. Aproveitamos modelos de IA proprietários para acelerar a codificação, otimizar UX e gerar conteúdo que vende.
+          Enquanto muitos falam de IA, nós aplicamos. Usamos modelos proprietários avançados para otimizar cada aspecto: velocidade de desenvolvimento, qualidade de UX, estratégia de conteúdo.
+          <br>
+          Resultado: você chega ao mercado 3-4x mais rápido com produto superior.
         </p>
       </div>
       
