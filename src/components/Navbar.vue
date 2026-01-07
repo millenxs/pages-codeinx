@@ -22,16 +22,13 @@ const toggleTheme = () => {
 </script>
 
 <template>
-  <nav class="fixed w-full z-50 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+  <nav class="fixed w-full z-50 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800" aria-label="Navegação Principal">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-20 items-center">
         <!-- Logo -->
         <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-          <div class="relative w-8 h-8">
-            <div class="absolute inset-0 rounded-full border-4 border-navy dark:border-white"></div>
-            <div class="absolute top-1 right-1 w-3 h-3 bg-secondary rounded-full"></div>
-          </div>
-          <span class="font-display font-bold text-2xl tracking-tight text-navy dark:text-white">codeinx</span>
+          <img src="/logo.png" alt="codeinx" class="h-8 w-auto" />
+          <span class="font-display font-bold text-2xl tracking-tight text-navy dark:text-white pb-1">codeinx</span>
         </div>
         
         <!-- Navigation Links -->

@@ -13,13 +13,15 @@ import Footer from './components/Footer.vue'
 <template>
   <div class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-body transition-colors duration-300">
     <Navbar />
-    <Hero />
-    <LogoCloud />
-    <AIApproach />
-    <Services />
-    <Portfolio />
-    <Testimonials />
-    <Contact />
+    <main>
+      <Hero />
+      <LogoCloud />
+      <AIApproach />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+    </main>
     <Footer />
   </div>
 </template>

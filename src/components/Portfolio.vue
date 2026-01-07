@@ -14,7 +14,7 @@ const projects = [
 </script>
 
 <template>
-  <section class="py-24 bg-surface-light dark:bg-surface-dark" id="portfolio">
+  <section class="py-24 bg-surface-light dark:bg-surface-dark" id="portfolio" aria-label="Nosso Portfólio">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-display font-bold text-navy dark:text-white mb-4">Trabalhos Selecionados</h2>
@@ -31,6 +31,9 @@ const projects = [
             <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-colors z-10"></div>
             <img 
               :alt="project.title" 
+              loading="lazy"
+              width="640"
+              height="360"
               class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" 
               :src="project.image"
             />
