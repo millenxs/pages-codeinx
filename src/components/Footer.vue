@@ -23,10 +23,8 @@ const company = [
         <!-- Brand -->
         <div class="col-span-1 md:col-span-2">
           <div class="flex items-center gap-2 mb-4">
-            <div class="w-6 h-6 rounded-full border-2 border-navy dark:border-white relative">
-              <div class="absolute top-0.5 right-0.5 w-2 h-2 bg-secondary rounded-full"></div>
-            </div>
-            <span class="font-display font-bold text-xl text-navy dark:text-white">codeinx</span>
+            <img src="/logo.png" alt="codeinx" class="h-8 w-auto" />
+            <span class="font-display font-bold text-xl text-navy dark:text-white pb-1">codeinx</span>
           </div>
           <p class="text-slate-500 dark:text-slate-400 max-w-sm mb-6">
             Estratégia digital, engenharia de software, inteligência artificial e suporte contínuo. Tudo integrado em uma única parceria que impulsiona seu crescimento.
