@@ -25,7 +25,7 @@ const features = [
 </script>
 
 <template>
-  <section class="py-24 bg-surface-light dark:bg-surface-dark relative" id="ai-approach">
+  <section class="py-24 bg-surface-light dark:bg-surface-dark relative" id="ai-approach" aria-label="Nossa Abordagem IA">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-4xl font-display font-bold text-navy dark:text-white mb-4">

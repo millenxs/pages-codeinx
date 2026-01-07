@@ -34,7 +34,7 @@ ${projectDescription.value}
 </script>
 
 <template>
-  <section class="py-24 bg-navy relative overflow-hidden" id="contact">
+  <section class="py-24 bg-navy relative overflow-hidden" id="contact" aria-label="Formulário de Contato">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
     

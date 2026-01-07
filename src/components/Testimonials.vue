@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <section class="py-24 bg-background-light dark:bg-background-dark border-t border-slate-200 dark:border-slate-800" id="testimonials">
+  <section class="py-24 bg-background-light dark:bg-background-dark border-t border-slate-200 dark:border-slate-800" id="testimonials" aria-label="Depoimentos de Clientes">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <!-- Left - Testimonial -->
@@ -14,6 +14,9 @@
           <div class="flex items-center gap-4">
             <img 
               alt="Retrato do Cliente" 
+              loading="lazy"
+              width="48"
+              height="48"
               class="w-12 h-12 rounded-full object-cover border-2 border-primary" 
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgVahotFs3xu7SR-Xvhx23XsPduBOe-7_2hHY0IOwXT86YYcM9YOyt1qlY74XIX9BPxF-IxU6yu8bTwJTf9THUUYPWQgN-nsMsVsbWn8nwjmom0fYJM8aCOf5fWNqmqaQ8iW9O4kdCeqB5pySNWn_b66KunwNDQnoYtAxJZADppnXAy-U8b1C7eimI-w_giB75Wc3RVyEpIHRVrbAKVolEyhzsjzLjVhqQEU-JT5MTsOAjgUIOjtZ_1zg19h1-DsCWR94q54z3412Q"
             />

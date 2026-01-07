@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+  <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden" aria-label="Introdução">
     <!-- Background Blurs -->
     <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-secondary/20 dark:bg-secondary/10 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 bg-primary/20 dark:bg-primary/10 rounded-full blur-3xl"></div>
@@ -50,6 +50,9 @@
             <img 
               alt="Forma 3D abstrata representando rede neural de IA" 
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+              fetchpriority="high"
+              width="600"
+              height="500"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7cFgX7kUx7aVP_lEjgzrTWRnJd9UujwNT4SZrI4eJ12pCkwYn-597K9YmfKR1epTb3rizW3gbd_mIc4t55FS_bA2xKrJ3UZJp4Eh3F_d-vCTpCfdfgHAp0n3Vkj0BU2x-Jyllp_sUt2x53a6_2yqB6ACoDp8zfAkaeH87UPXE8UlTLpYFRnE-YjxUbknFVJ6N6SvDg0YmuJ602VOKAS-2o104lF_NV1lABQlqo8a0L-NveCbP03OEnSOhUjTKHBuoPscd3zmNwtYv"
             />
             

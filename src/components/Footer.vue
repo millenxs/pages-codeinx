@@ -32,13 +32,13 @@ const company = [
             Estratégia digital, engenharia de software, inteligência artificial e suporte contínuo. Tudo integrado em uma única parceria que impulsiona seu crescimento.
           </p>
           <div class="flex space-x-4">
-            <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+            <a class="text-slate-400 hover:text-primary transition-colors" href="#" aria-label="Facebook">
               <span class="material-icons-outlined">facebook</span>
             </a>
-            <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+            <a class="text-slate-400 hover:text-primary transition-colors" href="#" aria-label="Portfólio">
               <span class="material-icons-outlined">smart_display</span>
             </a>
-            <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+            <a class="text-slate-400 hover:text-primary transition-colors" href="#" aria-label="Email">
               <span class="material-icons-outlined">alternate_email</span>
             </a>
           </div>
