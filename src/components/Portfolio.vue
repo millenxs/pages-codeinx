@@ -4,7 +4,7 @@ const projects = [
     title: 'Portex',
     category: 'Aplicação para Portarias • Controle de Encomendas • Condomínios',
     image: '/portex-png.png',
-    link: 'https://lnkd.in/e5VM6w7V'
+    link: 'https://portex-pacotes.vercel.app'
   },
   {
     title: 'Nexa -  Gestão Financeira Pessoal',
