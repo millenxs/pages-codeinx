@@ -1,14 +1,22 @@
 <script setup lang="ts">
 const projects = [
   {
-    title: 'Painel FinTech',
-    category: 'Web App • React • Finanças',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCj5GFo6vnSQcLfCaGGOm4RV3cXHfeBGIiZp5B6YsXf815xaSPilsXkETiBRqNr2iZMvrtF4D2YOBKZsMyyEOuItgQ4zjTyLmOAC0nHCCpc9C4TS39xjkBkPaJzGfnNDV8jun0T-XWATzVm5-zj2aE-caTb0cymrIHRffgMlC5fh0qB_dUndFLBHF1bTibABucdOlxvOjMItWTtPR9cQNw5TUgDBlxexYVfkDb1cc8TN23vmNDY5O_jTyMgzjqO5lwKozn8tGLgv2I2'
+    title: 'Portex',
+    category: 'Aplicação para Portarias • Controle de Encomendas • Condomínios',
+    image: '/portfolio/portex.png',
+    link: 'https://portex-pacotes.vercel.app/'
   },
   {
-    title: 'Loja Luxe Mode',
-    category: 'E-commerce • Shopify • Recomendações IA',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCEJGNh_LiYS8U80WpO3l5LHNwJVXerY6UqwdKpKlPtf3-ZHcPIao1CU9E3rfuPJuNHR4L9qnVTncz9fZnZA0OTXzbKr---JG9SZUhZfEsfCQuwdWACbY1xAFlKSbnAukcRAhjTr-6pAyBd67nDAN2jn3aRY5_5Q68ZuRsY0dBaI3Ol4SJPFFQMkl9AgTOrNQICCjhqpJ_Q9PGPtx7_7p0BVy1OBFvFEDVQnZ1PGJKlwxO_43kp7TNK65S_MRNowpWfKLaK730ioQ40'
+    title: 'Nexa - Gestão Financeira Pessoal',
+    category: 'Aplicação para Contabilidade • Dashboard Financeiro • Fintech',
+    image: '/portfolio/nexa.png',
+    link: 'https://finance-app-one-phi.vercel.app/'
+  },
+  {
+    title: 'ThemisScan - Análise Jurídica Inteligente',
+    category: 'Aplicação para Escritórios de Advocacia • Análise de Documentos • IA Jurídica',
+    image: '/portfolio/themisscan.png',
+    link: 'https://themis-scan-analisador-de-contratos.vercel.app/'
   }
 ]
 </script>
@@ -21,10 +29,13 @@ const projects = [
         <p class="text-slate-600 dark:text-slate-400">Veja como ajudamos empresas a crescerem com design web inteligente.</p>
       </div>
       
-      <div class="grid md:grid-cols-2 gap-8">
-        <div 
+      <div class="grid md:grid-cols-3 gap-8">
+        <a 
           v-for="project in projects" 
           :key="project.title"
+          :href="project.link"
+          target="_blank"
+          rel="noopener noreferrer"
           class="group cursor-pointer"
         >
           <div class="relative overflow-hidden rounded-2xl aspect-video mb-4">
@@ -45,12 +56,12 @@ const projects = [
             </div>
             <span class="material-icons-outlined text-slate-400 group-hover:text-primary transition-colors">arrow_outward</span>
           </div>
-        </div>
+        </a>
       </div>
       
       <div class="text-center mt-12">
-        <a class="inline-flex items-center text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">
-          Ver Portfólio Completo <span class="material-icons-outlined ml-1 text-base">chevron_right</span>
+        <a class="inline-flex items-center text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors" href="#contact">
+          Iniciar seu Projeto <span class="material-icons-outlined ml-1 text-base">chevron_right</span>
         </a>
       </div>
     </div>

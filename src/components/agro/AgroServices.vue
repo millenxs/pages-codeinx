@@ -25,13 +25,13 @@
               <div class="w-12 h-12 bg-navy dark:bg-white rounded-full flex items-center justify-center mb-6 text-white dark:text-navy font-bold text-xl">1</div>
               <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">Logística e Distribuição</h3>
               <p class="text-slate-600 dark:text-slate-400 mb-6">
-                Sistemas para gestão de frota, roteirização inteligente e rastreamento de cargas em tempo real. Otimize o fluxo da fazenda até o porto ou centro de distribuição.
+                Criamos sistemas digitais para substituir suas planilhas e papeladas de entregas. Acompanhe caminhões no mapa em tempo real, organize rotas automaticamente e gerencie todo o transporte de insumos e colheitas - tudo online, sem depender de anotações em papel ou WhatsApp.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Rastreamento em Tempo Real</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Otimização de Rotas</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Gestão de Fretes</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Acompanhamento de Cargas no Mapa</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Rotas Otimizadas Automaticamente</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Sem Planilhas: Tudo Digital e Organizado</li>
             </ul>
           </div>
         </div>
@@ -46,12 +46,12 @@
               <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mb-6 text-green-900 font-bold text-xl">2</div>
               <h3 class="text-2xl font-bold text-white mb-4">Exportação e Comércio Exterior</h3>
               <p class="text-slate-100 mb-6">
-                Plataformas para facilitar o processo de exportação. Gestão de documentos, compliance, conexão com compradores internacionais e acompanhamento de commodities.
+                Desenvolvemos plataformas digitais para organizar toda documentação de exportação que hoje você faz em papel ou pasta de arquivos. Sistema centralizado para certificados, licenças, conexão com compradores internacionais e acompanhamento completo dos seus embarques - tudo em um só lugar.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-100">
               <li class="flex items-center"><span class="w-1.5 h-1.5 bg-yellow-400 rounded-full mr-2"></span>Gestão Documental</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-yellow-400 rounded-full mr-2"></span>Conexão com Tradings</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-yellow-400 rounded-full mr-2"></span>Conexão com Compradores no Exterior</li>
               <li class="flex items-center"><span class="w-1.5 h-1.5 bg-yellow-400 rounded-full mr-2"></span>Cotações em Tempo Real</li>
             </ul>
           </div>
@@ -67,13 +67,13 @@
               <div class="w-12 h-12 bg-navy dark:bg-white rounded-full flex items-center justify-center mb-6 text-white dark:text-navy font-bold text-xl">3</div>
               <h3 class="text-2xl font-bold text-navy dark:text-white mb-4">Marketplaces e Compras</h3>
               <p class="text-slate-600 dark:text-slate-400 mb-6">
-                Criação de marketplaces de nicho para insumos, maquinários e produtos agrícolas. Sistemas de compras conjuntas e e-commerce B2B/B2C para o agronegócio.
+                Transformamos seu negócio em uma loja online profissional. Chega de vender por WhatsApp, catálogo em PDF ou anotar pedidos no caderno. Criamos sistemas completos para vender produtos agrícolas na internet e plataformas para cooperativas gerenciarem compras em grupo de forma automatizada.
               </p>
             </div>
             <ul class="space-y-2 text-sm text-slate-500 dark:text-slate-400">
               <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Marketplaces B2B</li>
               <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Gestão de Pedidos</li>
-              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Integração com ERPs</li>
+              <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Adeus Catálogo em PDF e Pedidos no Caderno</li>
             </ul>
           </div>
         </div>

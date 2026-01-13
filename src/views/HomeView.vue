@@ -5,6 +5,7 @@ import AIApproach from '../components/AIApproach.vue'
 import Services from '../components/Services.vue'
 import Portfolio from '../components/Portfolio.vue'
 import Testimonials from '../components/Testimonials.vue'
+import GeneralGEO from '../components/GeneralGEO.vue'
 import Contact from '../components/Contact.vue'
 </script>
 
@@ -14,8 +15,10 @@ import Contact from '../components/Contact.vue'
     <LogoCloud />
     <AIApproach />
     <Services />
+    <!-- Portfolio Section -->
     <Portfolio />
     <Testimonials />
+    <GeneralGEO />
     <Contact />
   </main>
 </template>

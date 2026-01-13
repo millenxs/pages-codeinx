@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue'
 
 const isDark = ref(false)
+const isMenuOpen = ref(false)
 
 onMounted(() => {
   // Check system preference
@@ -18,6 +19,10 @@ const toggleTheme = () => {
   } else {
     document.documentElement.classList.remove('dark')
   }
+}
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
 }
 </script>
 
@@ -52,6 +57,44 @@ const toggleTheme = () => {
           <a 
             class="hidden md:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-medium rounded-full text-white bg-primary hover:bg-teal-700 shadow-lg shadow-teal-500/30 transition-all transform hover:-translate-y-0.5" 
             href="#contact"
+          >
+            Iniciar Projeto
+          </a>
+
+          <!-- Mobile Menu Button -->
+          <button 
+            class="md:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+            @click="toggleMenu"
+            aria-label="Menu Principal"
+          >
+            <span class="material-icons-outlined text-2xl">
+              {{ isMenuOpen ? 'close' : 'menu' }}
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div v-show="isMenuOpen" class="md:hidden border-t border-slate-200 dark:border-slate-800">
+        <div class="px-2 pt-2 pb-6 space-y-1">
+          <router-link 
+            class="block px-3 py-2 rounded-md text-base font-medium hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-primary transition-colors" 
+            :to="{ path: '/', hash: '#services' }"
+            @click="isMenuOpen = false"
+          >
+            Serviços
+          </router-link>
+          <router-link 
+            class="block px-3 py-2 rounded-md text-base font-medium hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-primary transition-colors" 
+            to="/agro"
+            @click="isMenuOpen = false"
+          >
+            Agro&Varejo
+          </router-link>
+          <a 
+            class="block w-full mt-4 text-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-primary hover:bg-teal-700 shadow-lg shadow-teal-500/30 transition-all" 
+            href="#contact"
+            @click="isMenuOpen = false"
           >
             Iniciar Projeto
           </a>
