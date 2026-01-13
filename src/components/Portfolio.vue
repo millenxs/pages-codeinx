@@ -3,20 +3,20 @@ const projects = [
   {
     title: 'Portex',
     category: 'Aplicação para Portarias • Controle de Encomendas • Condomínios',
-    image: '/portfolio/portex.png',
-    link: 'https://portex-pacotes.vercel.app/'
+    image: '/portex-png.png',
+    link: 'https://portex-pacotes.vercel.app'
   },
   {
-    title: 'Nexa - Gestão Financeira Pessoal',
+    title: 'Nexa -  Gestão Financeira Pessoal',
     category: 'Aplicação para Contabilidade • Dashboard Financeiro • Fintech',
-    image: '/portfolio/nexa.png',
+    image: '/nexa-app.png',
     link: 'https://finance-app-one-phi.vercel.app/'
   },
   {
-    title: 'ThemisScan - Análise Jurídica Inteligente',
+    title: 'ThemisScan - Analise Juridica Inteligente',
     category: 'Aplicação para Escritórios de Advocacia • Análise de Documentos • IA Jurídica',
-    image: '/portfolio/themisscan.png',
-    link: 'https://themis-scan-analisador-de-contratos.vercel.app/'
+    image: '/themisScan-app.png',
+    link: 'https://themis-scan-analisador-de-contratos.vercel.app'
   }
 ]
 </script>
@@ -29,14 +29,14 @@ const projects = [
         <p class="text-slate-600 dark:text-slate-400">Veja como ajudamos empresas a crescerem com design web inteligente.</p>
       </div>
       
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <a 
           v-for="project in projects" 
           :key="project.title"
-          :href="project.link"
+          :href="project.link || '#'"
           target="_blank"
           rel="noopener noreferrer"
-          class="group cursor-pointer"
+          class="group cursor-pointer block"
         >
           <div class="relative overflow-hidden rounded-2xl aspect-video mb-4">
             <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-colors z-10"></div>
@@ -59,9 +59,9 @@ const projects = [
         </a>
       </div>
       
-      <div class="text-center mt-12">
-        <a class="inline-flex items-center text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors" href="#contact">
-          Iniciar seu Projeto <span class="material-icons-outlined ml-1 text-base">chevron_right</span>
+      <div class="hidden text-center mt-12">
+        <a class="inline-flex items-center text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+          Ver Portfólio Completo <span class="material-icons-outlined ml-1 text-base">chevron_right</span>
         </a>
       </div>
     </div>

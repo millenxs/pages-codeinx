@@ -5,11 +5,8 @@ const isDark = ref(false)
 const isMenuOpen = ref(false)
 
 onMounted(() => {
-  // Check system preference
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    isDark.value = true
-    document.documentElement.classList.add('dark')
-  }
+  // Light mode is the default - no automatic dark mode detection
+  // Users can manually toggle to dark mode if desired
 })
 
 const toggleTheme = () => {
