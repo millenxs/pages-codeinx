@@ -24,7 +24,7 @@
           <p class="text-lg text-slate-600 dark:text-slate-400 max-w-lg leading-relaxed">
             Logística | Exportação | Compras e Vendas | Inteligência Artificial
             <br><br>
-            Impulsione sua produção e suas vendas com soluções digitais feitas sob medida para o campo e o varejo. Simplificamos a complexidade do agronegócio.
+            A tecnologia que o Vale do São Francisco precisa. Impulsione sua produção e exportação com soluções digitais feitas sob medida para o agronegócio regional.
           </p>
           
           <div class="flex flex-col sm:flex-row gap-4">
@@ -32,7 +32,7 @@
               class="inline-flex items-center justify-center px-8 py-3.5 text-base font-bold rounded-full text-white bg-green-600 hover:bg-green-700 transition-all shadow-xl shadow-green-500/20" 
               href="#contact"
             >
-              Falar com Especialista
+              Solicitar Orçamento
               <span class="material-icons-outlined ml-2 text-sm">arrow_forward</span>
             </a>
             <a 

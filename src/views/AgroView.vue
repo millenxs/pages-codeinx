@@ -5,6 +5,7 @@ import AgroAIApproach from '../components/agro/AgroAIApproach.vue'
 import AgroPortfolio from '../components/agro/AgroPortfolio.vue'
 import AgroTestimonials from '../components/agro/AgroTestimonials.vue'
 import AgroContact from '../components/agro/AgroContact.vue'
+import AgroGEO from '../components/agro/AgroGEO.vue'
 import LogoCloud from '../components/LogoCloud.vue' // Reusing LogoCloud for now, maybe custom logos later?
 </script>
 
@@ -16,6 +17,7 @@ import LogoCloud from '../components/LogoCloud.vue' // Reusing LogoCloud for now
     <AgroServices />
     <AgroPortfolio />
     <AgroTestimonials />
+    <AgroGEO />
     <AgroContact />
   </main>
 </template>

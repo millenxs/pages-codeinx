@@ -5,21 +5,21 @@ const features = [
     iconBg: 'bg-green-100 dark:bg-green-900/30',
     iconColor: 'text-green-700 dark:text-green-400',
     title: 'Previsão de Demanda e Safra',
-    description: 'Algoritmos que analisam dados históricos e climáticos para prever produtividade e demanda de mercado, auxiliando na tomada de decisão estratégica de venda.'
+    description: 'Criamos sistemas inteligentes que analisam seu histórico de vendas e dados climáticos para prever a demanda dos seus produtos e o desempenho da próxima safra. Ajudamos você a decidir o que plantar, quanto estocar e quando vender - tudo baseado em dados reais, não no achismo.'
   },
   {
     icon: 'share_location',
     iconBg: 'bg-yellow-100 dark:bg-yellow-900/30',
     iconColor: 'text-yellow-700 dark:text-yellow-500',
     title: 'Logística Otimizada por IA',
-    description: 'Reduza custos de frete em até 30% com nosso sistema de roteirização inteligente que conecta cargas, caminhoneiros e armazéns da forma mais eficiente.'
+    description: 'Desenvolvemos sistemas que reduzem seus custos de frete em até 30%. A plataforma calcula automaticamente as melhores rotas, organiza as cargas de forma mais eficiente e conecta caminhoneiros disponíveis com suas entregas - acabou o desperdício de viagens vazias e rotas longas'
   },
   {
     icon: 'sync_alt',
     iconBg: 'bg-blue-100 dark:bg-blue-900/30',
     iconColor: 'text-blue-600 dark:text-blue-400',
     title: 'Conexão Direta ao Mercado',
-    description: 'Elimine intermediários desnecessários. Nossa plataforma conecta produtores diretamente a compradores, tradings e varejistas, maximizando a margem de lucro.'
+    description: 'Criamos plataformas que conectam você diretamente com quem quer comprar seus produtos. Elimine atravessadores e aumente sua margem de lucro. O sistema facilita negociações com cooperativas, traders, varejistas e compradores finais - tudo digital, rápido e transparente.'
   }
 ]
 </script>
@@ -32,9 +32,9 @@ const features = [
           Por que a nossa tecnologia? <span class="text-green-600">Smart Farming na Prática.</span>
         </h2>
         <p class="text-slate-600 dark:text-slate-400">
-          Não entregamos apenas software, entregamos inteligência de mercado. Nossas soluções são desenhadas especificamente para as dores da cadeia do agronegócio e varejo alimentar.
+          Não criamos sistemas genéricos. Desenvolvemos soluções feitas sob medida para os desafios reais do agronegócio e varejo alimentar. Entendemos suas dores, conhecemos o mercado e criamos ferramentas que realmente funcionam no dia a dia do campo e da loja.
           <br>
-          Resultado: mais eficiência operacional e maior lucratividade por hectare.
+          Resultado: você trabalha melhor, gasta menos tempo com burocracia e lucra mais.
         </p>
       </div>
       
