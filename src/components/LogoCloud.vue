@@ -7,18 +7,21 @@
       <p class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-widest mb-6">
         Potencializando marcas com tecnologia de IA
       </p>
-      <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-        <div class="flex items-center gap-2 text-xl font-display font-bold text-slate-800 dark:text-slate-200">
-          <div class="w-6 h-6 bg-slate-800 dark:bg-slate-200 rounded-sm"></div> TechFlow
+      <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-90 transition-all duration-500">
+        <div class="flex items-center gap-3 text-xl font-display font-bold text-slate-800">
+          <span>OpenAI GPT</span>
         </div>
-        <div class="flex items-center gap-2 text-xl font-display font-bold text-slate-800 dark:text-slate-200">
-          <div class="w-6 h-6 bg-slate-800 dark:bg-slate-200 rounded-full"></div> CircleAI
+
+        <div class="flex items-center gap-3 text-xl font-display font-bold text-slate-800">
+          <span>Anthropic Claude</span>
         </div>
-        <div class="flex items-center gap-2 text-xl font-display font-bold text-slate-800 dark:text-slate-200">
-          <div class="w-6 h-6 border-2 border-slate-800 dark:border-slate-200 rounded-sm"></div> SquareUp
+
+        <div class="flex items-center gap-3 text-xl font-display font-bold text-slate-800">
+          <span>Google Gemini</span>
         </div>
-        <div class="flex items-center gap-2 text-xl font-display font-bold text-slate-800 dark:text-slate-200">
-          <div class="w-6 h-6 bg-slate-800 dark:bg-slate-200 rounded-tr-xl"></div> EdgeSys
+
+        <div class="flex items-center gap-3 text-xl font-display font-bold text-slate-800">
+          <span>Meta LLaMA</span>
         </div>
       </div>
     </div>

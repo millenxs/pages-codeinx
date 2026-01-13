@@ -53,7 +53,7 @@ ${projectDescription.value}
           <label class="block text-sm font-medium text-slate-300 mb-1" for="whatsapp">Seu WhatsApp</label>
           <input 
             v-model="whatsapp"
-            class="w-full rounded-lg bg-slate-900/50 border-slate-700 text-white placeholder-slate-500 focus:ring-primary focus:border-primary" 
+            class="w-full rounded-lg bg-slate-900/50 border-slate-700 text-white placeholder-slate-500 focus:ring-primary focus:border-primary p-4" 
             id="whatsapp" 
             placeholder="(11) 99999-9999" 
             type="tel"
@@ -64,7 +64,7 @@ ${projectDescription.value}
           <label class="block text-sm font-medium text-slate-300 mb-1" for="projectType">Que tipo de projeto você precisa?</label>
           <select 
             v-model="projectType"
-            class="w-full rounded-lg bg-slate-900/50 border-slate-700 text-white focus:ring-primary focus:border-primary" 
+            class="w-full rounded-lg bg-slate-900/50 border-slate-700 text-white focus:ring-primary focus:border-primary p-4" 
             id="projectType"
             required
           >
@@ -81,7 +81,7 @@ ${projectDescription.value}
           <label class="block text-sm font-medium text-slate-300 mb-1" for="projectDescription">Conte um pouco sobre seu projeto</label>
           <textarea 
             v-model="projectDescription"
-            class="w-full rounded-lg bg-slate-900/50 border-slate-700 text-white placeholder-slate-500 focus:ring-primary focus:border-primary resize-none" 
+            class="w-full rounded-lg bg-slate-900/50 border-slate-700 text-white placeholder-slate-500 focus:ring-primary focus:border-primary resize-none p-4" 
             id="projectDescription" 
             placeholder="Descreva brevemente o que você precisa desenvolver..."
             rows="3"
@@ -92,7 +92,7 @@ ${projectDescription.value}
           <label class="block text-sm font-medium text-slate-300 mb-1" for="budget">Qual seu orçamento estimado?</label>
           <select 
             v-model="budget"
-            class="w-full rounded-lg bg-slate-900/50 border-slate-700 text-white focus:ring-primary focus:border-primary" 
+            class="w-full rounded-lg bg-slate-900/50 border-slate-700 text-white focus:ring-primary focus:border-primary p-4" 
             id="budget"
             required
           >
