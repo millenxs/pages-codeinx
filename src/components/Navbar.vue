@@ -23,18 +23,18 @@ const toggleTheme = () => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-20 items-center">
         <!-- Logo -->
-        <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
+        <router-link to="/" class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
           <img src="/logo.png" alt="codeinx" class="h-8 w-auto" />
           <span class="font-display font-bold text-2xl tracking-tight text-navy dark:text-white pb-1">codeinx</span>
-        </div>
+        </router-link>
+
         
         <!-- Navigation Links -->
         <div class="hidden md:flex space-x-8 items-center">
-          <a class="text-sm font-medium hover:text-primary transition-colors" href="#services">Serviços</a>
-          <a class="text-sm font-medium hover:text-primary transition-colors" href="#ai-approach">Abordagem IA</a>
-          <a class="text-sm font-medium hover:text-primary transition-colors" href="#portfolio">Trabalhos</a>
-          <a class="text-sm font-medium hover:text-primary transition-colors" href="#testimonials">Depoimentos</a>
+          <router-link class="text-sm font-medium hover:text-primary transition-colors" :to="{ path: '/', hash: '#services' }">Serviços</router-link>
+          <router-link class="text-sm font-medium hover:text-primary transition-colors" to="/agro">Agro&Varejo</router-link>
         </div>
+
         
         <!-- Actions -->
         <div class="flex items-center gap-4">
